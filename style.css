@@ -1,74 +1,8 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    text-align: center;
-}
-
-/* Header */
-header {
-    background-color: #2a9d8f;
-    color: white;
-    padding: 20px;
-}
-
-/* Pricing Section */
-.pricing {
-    padding: 20px;
-}
-
-/* Category Titles (Now fits text only) */
-.category {
-    display: inline-block;
-    background-color: #2a9d8f;
-    color: white;
-    padding: 5px 15px;
-    margin: 20px auto;
+.package-img {
+    width: 150px;  /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px;
     border-radius: 5px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-/* Plans */
-.plan {
-    background-color: white;
-    padding: 15px;
-    margin: 10px auto;
-    width: 40%;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.plan h3 {
-    color: #2a9d8f;
-}
-
-.plan p {
-    font-size: 16px;
-    color: #333;
-}
-
-/* Subscribe Button */
-.btn {
-    display: inline-block;
-    background-color: #2a9d8f;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.btn:hover {
-    background-color: #21867a;
-}
-
-/* Footer */
-footer {
-    background-color: #222;
-    color: white;
-    padding: 10px;
-    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
 }
