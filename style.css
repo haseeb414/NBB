@@ -1,69 +1,74 @@
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     text-align: center;
 }
 
-body {
-    background: #f0fdf4; /* Light Green */
-    color: #055e29;
-}
-
+/* Header */
 header {
-    background: #055e29;
+    background-color: #2a9d8f;
     color: white;
-    padding: 50px;
+    padding: 20px;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #25D366; /* WhatsApp Green */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 15px;
+/* Pricing Section */
+.pricing {
+    padding: 20px;
 }
 
-.features, .pricing, #contact {
-    padding: 40px;
-    background: white;
-    margin: 20px;
+/* Category Titles */
+.category {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px;
+    margin: 20px auto;
+    width: 50%;  /* Adjust width */
     border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Plans */
+.plan {
+    background-color: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 40%;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.plan {
-    background: #c1f0d0; /* Light Green */
-    padding: 20px;
-    border-radius: 8px;
-    margin: 10px;
+.plan h3 {
+    color: #2a9d8f;
 }
 
-.plan img {
-    width: 100%;
-    border-radius: 5px;
+.plan p {
+    font-size: 16px;
+    color: #333;
 }
 
+/* Subscribe Button */
 .btn {
     display: inline-block;
-    padding: 10px 20px;
-    background: #25D366;
+    background-color: #2a9d8f;
     color: white;
     text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
     border-radius: 5px;
+    font-size: 16px;
 }
 
-footer {
-    background: #055e29;
-    color: white;
-    padding: 15px;
+.btn:hover {
+    background-color: #21867a;
 }
 
+/* Footer */
 footer {
-    background: #333;
+    background-color: #222;
     color: white;
-    padding: 15px;
+    padding: 10px;
+    margin-top: 20px;
 }
