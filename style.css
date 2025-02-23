@@ -18,14 +18,14 @@ header {
     padding: 20px;
 }
 
-/* Category Titles */
+/* Category Titles (Now fits text only) */
 .category {
+    display: inline-block;
     background-color: #2a9d8f;
     color: white;
-    padding: 10px;
+    padding: 5px 15px;
     margin: 20px auto;
-    width: 50%;  /* Adjust width */
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
 }
