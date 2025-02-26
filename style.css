@@ -1,49 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>National Broadband</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <img src="nbb.png" alt="National Broadband Logo" class="logo">
-    </header>
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f0;
+    text-align: center;
+}
 
-    <section class="hero">
-        <h1>Experience Blazing Fast Internet</h1>
-        <p>Reliable, Affordable, and Ultra-Fast Internet for Your Home & Business</p>
-        <a href="https://wa.me/923009684436?text=Hello!%20I%20am%20interested%20in%20getting%20a%20connection.%20Please%20guide%20me%20further." class="btn">Get Connected</a>
-    </section>
+/* Logo */
+header {
+    text-align: center;
+    padding: 10px;
+}
+.logo {
+    max-width: 150px;
+}
 
-    <section class="packages">
-        <div class="package-box">
-            <h2>Basic Plan</h2>
-            <img src="basic-plan.jpg" alt="Basic Plan">
-            <p class="speed">Up to 10 Mbps</p>
-            <p class="price">Rs. 1,999 / Month</p>
-            <p class="details">Perfect for casual browsing and social media.</p>
-            <a href="https://wa.me/923009684436?text=Hello!%20I%20am%20interested%20in%20the%20Basic%20Plan%20(10%20Mbps%20for%20Rs.%201,999).%20Please%20provide%20more%20details." class="whatsapp-btn">Order Now</a>
-        </div>
+/* Hero Section */
+.hero {
+    background-color: #dff0d8;
+    padding: 40px;
+}
+.hero h1 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+.hero p {
+    color: #34495e;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.btn:hover {
+    background-color: #218838;
+}
 
-        <div class="package-box">
-            <h2>Standard Plan</h2>
-            <img src="standard-plan.jpg" alt="Standard Plan">
-            <p class="speed">Up to 30 Mbps</p>
-            <p class="price">Rs. 2,999 / Month</p>
-            <p class="details">Best for HD streaming and online gaming.</p>
-            <a href="https://wa.me/923009684436?text=Hello!%20I%20am%20interested%20in%20the%20Standard%20Plan%20(30%20Mbps%20for%20Rs.%202,999).%20Please%20provide%20more%20details." class="whatsapp-btn">Order Now</a>
-        </div>
+/* Packages */
+.packages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.package {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+.package h2 {
+    font-size: 18px;
+    color: #2c3e50;
+}
+.package a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #28a745;
+    font-weight: bold;
+}
+.package a:hover {
+    color: #218838;
+}
 
-        <div class="package-box">
-            <h2>Premium Plan</h2>
-            <img src="premium-plan.jpg" alt="Premium Plan">
-            <p class="speed">Up to 50 Mbps</p>
-            <p class="price">Rs. 4,999 / Month</p>
-            <p class="details">Ultra-fast internet for multiple users & heavy downloads.</p>
-            <a href="https://wa.me/923009684436?text=Hello!%20I%20am%20interested%20in%20the%20Premium%20Plan%20(50%20Mbps%20for%20Rs.%204,999).%20Please%20provide%20more%20details." class="whatsapp-btn">Order Now</a>
-        </div>
-    </section>
-</body>
-</html>
+/* Responsive */
+@media (max-width: 600px) {
+    .packages {
+        flex-direction: column;
+        align-items: center;
+    }
+    .package {
+        width: 90%;
+    }
+}
