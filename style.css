@@ -81,30 +81,46 @@ h1 {
     max-width: 900px; /* Limits the width for a sleek look */
 }
 
+.about {
+    background: linear-gradient(to right, #f8f9fa, #eef1f5); /* Smooth gradient */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 900px;
+    text-align: center;
+}
+
 .about h2 {
     font-size: 32px;
     font-weight: 700;
     color: #333;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-section img {
+    width: 60px; /* Adjust icon size */
+    height: 60px;
+    margin-right: 20px;
 }
 
 .about-text {
     font-size: 18px;
     font-weight: 400;
     color: #444;
-    line-height: 1.8;
-    text-align: justify;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.highlight {
-    font-weight: 700;
-    color: #0056b3; /* A premium blue */
-    display: block;
-    margin-top: 10px;
-    font-size: 20px;
-    text-align: center;
+    line-height: 1.6;
+    text-align: left;
 }
