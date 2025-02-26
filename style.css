@@ -6,36 +6,36 @@
     font-family: Arial, sans-serif;
 }
 
-/* Background Color */
+/* Background */
 body {
-    background-color: #E8F5E9; /* Light green background */
+    background-color: #E8F5E9; /* Light green */
     text-align: center;
-    overflow-x: hidden; /* Fixes horizontal scrolling issue */
+    overflow-x: hidden; /* Fixes horizontal scroll */
 }
 
 /* Logo */
 .logo {
     display: block;
     margin: 20px auto;
-    max-width: 150px;
+    max-width: 100px; /* Resized logo */
     height: auto;
 }
 
 /* Hero Section */
 .hero {
-    padding: 40px 20px;
+    padding: 30px 20px;
 }
 
 .hero h1 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
     color: #2E7D32;
 }
 
 .hero p {
-    font-size: 16px;
+    font-size: 14px;
     color: #4A4A4A;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 /* WhatsApp Button */
@@ -43,11 +43,11 @@ body {
     display: inline-block;
     background-color: #25D366;
     color: white;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 8px 16px;
+    font-size: 14px;
     border-radius: 5px;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .btn:hover {
@@ -59,27 +59,27 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    padding: 40px 10px;
+    gap: 15px;
+    padding: 30px 10px;
 }
 
 .package-box {
     background: white;
     border-radius: 10px;
-    padding: 20px;
-    width: 300px;
+    padding: 15px;
+    width: 260px; /* Adjusted size */
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .package-box h2 {
     color: #2E7D32;
-    font-size: 22px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 8px;
 }
 
 .package-box img {
-    max-width: 100%;
+    max-width: 250px; /* Resized image */
     height: auto;
     border-radius: 10px;
 }
