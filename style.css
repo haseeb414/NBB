@@ -13,6 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -35,6 +36,23 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
 }
 
 .hero {
@@ -69,6 +87,7 @@ nav ul li a {
     background-color: #009624;
 }
 
+/* Packages Section */
 .packages {
     text-align: center;
     padding: 50px 20px;
@@ -84,6 +103,14 @@ nav ul li a {
     margin: 10px;
 }
 
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .package-box {
+        width: 90%; /* Full width on smaller screens */
+    }
+}
+
+/* Footer */
 footer {
     background-color: #006400;
     color: white;
